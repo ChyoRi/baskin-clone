@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap");
-@import url("http://fonts.cdnfonts.com/css/multicolore-2");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -93,4 +93,25 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.main_list_wrap > .main_list > .login {
+  margin-right: 20px;
+}
+.main_list_wrap > .main_list > .login > a {
+  font-size: 13px;
+  font-weight: 700;
+}
+.main_list_wrap > .main_list > .login > a:first-of-type {
+  margin-right: 20px;
+  color: #ff7c98;
+}
+.main_list_wrap > .main_list > .login > a:last-of-type {
+  padding: 0 23px;
+}
+.main_list_wrap > .main_list > a {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 2;
 }

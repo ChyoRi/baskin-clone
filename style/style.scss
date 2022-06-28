@@ -49,4 +49,30 @@
 .main_list_wrap {
     @include flex();
     justify-content: space-between;
+
+    & > .main_list > .login {
+        margin-right: 20px;
+
+        &  > a {
+            font-size: 13px;
+            font-weight: 700;
+
+            &:first-of-type {
+                margin-right: 20px;
+                color: $color_pink;
+            }
+
+            &:last-of-type {
+                padding: 0 23px;
+            }
+        }
+    }
+
+    & > .main_list > a{
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        text-align: center;
+        letter-spacing: 2;
+    }
 }
